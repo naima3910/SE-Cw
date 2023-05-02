@@ -1,0 +1,117 @@
+Endeavour Website About page
+-----------------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Learning</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/Endeavour -1.png"</a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times-circle-o" onclick="hideMenu()"></i>
+
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="Courses.html">COURSE</a></li>
+            <li><a href="Blog.html">BLOG</a></li>
+            <li><a href="Contact.html">CONTACT</a></li>
+            <li><a href="Login.html">SIGN IN</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>About Us</h1>
+    </section>
+
+
+    <!-------About us Content----->
+    <section class="about-us">
+
+      <div class="row">
+        <div class="about-col">
+          <h1> Get To Know Us!<h1>
+            <p>Welcome to Endeavour, your premier destination for learning English! Our mission is to provide the highest quality English language education to students from around the world. With our experienced and dedicated team of instructors, we are committed to helping you improve your English skills and achieve your language learning goals. Whether you are a beginner or an advanced learner, our comprehensive curriculum is designed to cater to your individual needs and learning styles. We offer a variety of courses, including general English, business English, exam preparation, and more. Our classes are interactive and engaging, with a focus on developing your speaking, listening, reading, and writing skills. At Endeavour, we believe that language learning should be enjoyable and rewarding, which is why we strive to create a supportive and dynamic learning environment. Join us today and embark on a journey to improve your English proficiency!.</p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+      </div>
+  
+  
+    <section class="campus">
+      <h1>Meet Our Team</h1>
+      <p>A group of highly skilled and passionate individuals dedicated to helping you achieve your language learning goals.</p>
+  
+      <div class="row">
+        <div class="campus-col">
+          <img src="images/P-right.png" />
+          <div class="layer">
+            <h3>Teacher1</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="images/P-left.png" />
+          <div class="layer">
+            <h3>Shukri Mohamoud</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="images/P-right.png" />
+          <div class="layer">
+            <h3>Teacher3</h3>
+          </div>
+        </div>
+          <div class="campus-col">
+            <img src="images/P-left.png" />
+            <div class="layer">
+              <h3>Shukri Mohamoud</h3>
+            </div>
+          </div>
+      </div>
+    </section>
+  </section>
+
+    <!---------Footer---------------->
+    <section class="footer">
+      <h1>About Us</h1>
+      <p>
+        At Endeavour, we are thrilled to be your primary choice for learning English.<br> Our objective is to deliver top-notch English language education to learners across the globe.
+      </p>
+      <div class="icon">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"></i> by Shukri Mohamoud</p>
+    </section>
+
+    <!---------JavaScript for Toggle Menu---------------->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.stlye.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
