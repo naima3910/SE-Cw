@@ -586,7 +586,7 @@ h3{
     width: 100%;
     height: 100vh;
     font-family: sans-serif;
-    background-image: linear-gradient(rgba(240, 205, 247, 0.8),rgb(255, 255, 255)),url(images/close-up-hand.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8),rgb(255, 255, 255)),url(images/close-up-hand.jpg);
     color: #fff;
     display: flex;
     align-items: center;
@@ -611,7 +611,7 @@ h3{
     height: 100%;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.8),rgb(255, 255, 255)),url(images/close-up-hand.jpg);
+    background-image: linear-gradient(rgba(240, 125, 173, 0.726),rgba(236, 109, 136, 0.8)),url(images/close-up-hand.jpg);
     padding: 20px;
     box-sizing: border-box;
     backface-visibility: hidden;
