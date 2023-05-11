@@ -430,7 +430,7 @@ h3{
     box-sizing: border-box;
     border: none;
     outline: none;
-    background: #f0f0f0;
+    background: #a12c2c;
 }
 .comment-form button {
     margin: 10px 0;
@@ -486,6 +486,7 @@ h3{
     outline: none;
     border: 1px solid #ccc;
     box-sizing: border-box;
+    background: #a12c2c;
 }
 
 /*---------New Team section-------*/
