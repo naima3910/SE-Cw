@@ -611,7 +611,7 @@ h3{
     height: 100%;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(rgba(43, 223, 148, 0.726),rgba(136, 136, 236, 0.8)),url(images/close-up-hand.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8),rgb(255, 255, 255)),url(images/close-up-hand.jpg);
     padding: 20px;
     box-sizing: border-box;
     backface-visibility: hidden;
