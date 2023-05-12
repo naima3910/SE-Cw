@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Learning</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/Endeavour -1.png"</a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times-circle-o" onclick="hideMenu()"></i>
+
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="Courses.html">COURSE</a></li>
+            <li><a href="Blog.html">BLOG</a></li>
+            <li><a href="Contact.html">CONTACT</a></li>
+            <li><a href="Login.html">SIGN IN</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Certificate & Online Program for 2023</h1>
+    </section>
+
+    <!--------Blog page content---------->
+
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="images/english-book.jpg" />
+          <h2>Our Certificate & Online Program for 2023</h2>
+
+          <p>
+            Welcome to our vibrant community page! Here, you have the incredible
+            opportunity to connect with individuals from diverse backgrounds,
+            united by a common goal: to enhance their English language skills.
+            Embrace the power of cultural exchange as you engage in lively
+            conversations with fellow learners. By interacting with people from
+            different walks of life, you'll not only improve your English
+            fluency but also broaden your understanding of different
+            perspectives and cultures. .
+          </p>
+          <br />
+          <p>
+            Our community is a hub of intellectual stimulation and creative
+            collaboration. Exchange ideas, share experiences, and contribute to
+            thought-provoking discussions. Take advantage of this supportive
+            environment to practice your English fluency, receiving valuable
+            feedback and guidance along the way. Whether it's through written
+            posts, voice chats, or video discussions, our community fosters an
+            inclusive space where you can express yourself confidently and gain
+            the language skills necessary for effective communication in various
+            contexts.
+          </p>
+          <br />
+          <p>
+            Join us on this exciting journey as we collectively create a
+            welcoming space for language learners to connect, grow, and foster
+            mutual learning. Embrace the beauty of language as you explore
+            different topics, share your thoughts, and receive constructive
+            input from fellow members. Together, we can cultivate an environment
+            that nurtures linguistic development, empowers individuals, and
+            celebrates the joy of language acquisition. Welcome to our
+            community, where language thrives and friendships flourish!
+          </p>
+
+          <div class="comment-box">
+            <h3>Leave a comment</h3>
+
+            <form class="comment-form">
+              <input type="text" placeholder="Enter Name" />
+              <input type="email" placeholder="Enter Email" />
+              <textarea rows="5" placeholder="Your comment"></textarea>
+              <button type="submit" class="hero-btn red-btn">
+                POST COMMENT
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="blog-right">
+          <h3>Post Categories</h3>
+          <div>
+            <span>Listening<span>
+          </div>
+          <div>
+            <span>Reading</span>
+          </div>
+          <div>
+            <span>Speaking</span>
+          </div>
+          <div>
+            <span>Commerce</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---------Footer---------------->
+    <section class="footer">
+      <h1>About Us</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga earum
+        ipsa, ipsam sequi hic, voluptatem nesciunt iste impedit dolore<br />labore
+        porro quidem nulla quod rem quasi cum necessitatibus quo soluta.
+      </p>
+      <div class="icon">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made with <i class="fa fa-heart-0"></i> by Endeavour</p>
+    </section>
+
+    <!---------JavaScript for Toggle Menu---------------->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.stlye.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
